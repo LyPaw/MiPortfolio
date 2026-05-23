@@ -2,8 +2,6 @@
 
 Portfolio personal de Manuel Fuentes Cruz.
 
-Proyecto web responsive con certificaciones interactivas, galería de proyectos y diseño limpio. Funciona directamente desde el sistema de archivos (`file://`) sin necesidad de servidor.
-
 ## Contenido
 
 - **Sobre mí** — Presentación personal
