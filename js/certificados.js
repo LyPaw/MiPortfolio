@@ -1,0 +1,495 @@
+const certificadosData = {
+    "ntt_data": [
+        {
+            "titulo": "Java SE 11 Programmer II: Lambda Operations & Streams",
+            "fecha": "24 Abr. 2026",
+            "url": "img/certificados/NttData/Java SE 11 Programmer II_ Lambda Operations & Streams.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Introduction to Java",
+            "fecha": "25 Abr. 2026",
+            "url": "img/certificados/NttData/Introduction to Java.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Working with Variables",
+            "fecha": "25 Abr. 2026",
+            "url": "img/certificados/NttData/Working with Variables.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Conditions & Arrays",
+            "fecha": "25 Abr. 2026",
+            "url": "img/certificados/NttData/Conditions & Arrays.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Classes & Objects",
+            "fecha": "25 Abr. 2026",
+            "url": "img/certificados/NttData/Classes & Objects.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Classes, Data Types & Regular Expressions",
+            "fecha": "25 Abr. 2026",
+            "url": "img/certificados/NttData/Classes, Data Types & Regular Expressions.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Methods & Conditionals",
+            "fecha": "25 Abr. 2026",
+            "url": "img/certificados/NttData/Methods & Conditionals.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Operators & Conditionals",
+            "fecha": "27 Abr. 2026",
+            "url": "img/certificados/NttData/Operators & Conditionals.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Encapsulation & Overloaded Constructors",
+            "fecha": "27 Abr. 2026",
+            "url": "img/certificados/NttData/Encapsulation & Overloaded Constructors.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Data Manipulation",
+            "fecha": "27 Abr. 2026",
+            "url": "img/certificados/NttData/Data Manipulation.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Deployment & Application Enhancement",
+            "fecha": "27 Abr. 2026",
+            "url": "img/certificados/NttData/Deployment & Application Enhancement.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Working with Exceptions",
+            "fecha": "27 Abr. 2026",
+            "url": "img/certificados/NttData/Working with Exceptions.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Working with Inheritance",
+            "fecha": "27 Abr. 2026",
+            "url": "img/certificados/NttData/Working with Inheritance.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Working with Interfaces",
+            "fecha": "27 Abr. 2026",
+            "url": "img/certificados/NttData/Working with Interfaces.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Class Structure & Encapsulation",
+            "fecha": "29 Abr. 2026",
+            "url": "img/certificados/NttData/Class Structure & Encapsulation.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Classes, Interfaces, & Lambda Expressions",
+            "fecha": "29 Abr. 2026",
+            "url": "img/certificados/NttData/Classes, Interfaces, & Lambda Expressions.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Polymorphism & Abstraction",
+            "fecha": "29 Abr. 2026",
+            "url": "img/certificados/NttData/Polymorphism & Abstraction.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Interfaces, Lambda Expressions, Collections, & Generics",
+            "fecha": "30 Abr. 2026",
+            "url": "img/certificados/NttData/Interfaces, Lambda Expressions, Collections, & Generics.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Exceptions & Deployment",
+            "fecha": "1 May. 2026",
+            "url": "img/certificados/NttData/Exceptions & Deployment.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Inheritance, Interfaces, & Deployment",
+            "fecha": "1 May. 2026",
+            "url": "img/certificados/NttData/Inheritance, Interfaces, & Deployment.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Path Interface, Files Class, & Stream API",
+            "fecha": "1 May. 2026",
+            "url": "img/certificados/NttData/Path Interface, Files Class, & Stream API.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Working with File I/O",
+            "fecha": "1 May. 2026",
+            "url": "img/certificados/NttData/Working with File I_O.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Working with the Date/Time API",
+            "fecha": "1 May. 2026",
+            "url": "img/certificados/NttData/Working with the Date_Time API.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Concurrency & Parallelism",
+            "fecha": "2 May. 2026",
+            "url": "img/certificados/NttData/Concurrency & Parallelism.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "The JDBC API & Localization",
+            "fecha": "2 May. 2026",
+            "url": "img/certificados/NttData/The JDBC API & Localization.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Develop Web Applications with VS Code",
+            "fecha": "30 Abr. 2026",
+            "url": "img/certificados/NttData/Develop web applications with Visual Studio Code.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Introduction to GitHub in VS Code",
+            "fecha": "30 Abr. 2026",
+            "url": "img/certificados/NttData/Introduction to GitHub in Visual Studio Code.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Personalize Remote Workflow (VS Code)",
+            "fecha": "30 Abr. 2026",
+            "url": "img/certificados/NttData/Personalize your remote development workflow with Visual Studio Code.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Unit Testing: Intro to JUnit",
+            "fecha": "2 May. 2026",
+            "url": "img/certificados/NttData/Unit Testing_ An Introduction to the JUnit Framework.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Unit Testing: Assertions & Assumptions",
+            "fecha": "3 May. 2026",
+            "url": "img/certificados/NttData/Unit Testing_ Assertions & Assumptions in JUnit.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Unit Testing: Parameterized Tests",
+            "fecha": "3 May. 2026",
+            "url": "img/certificados/NttData/Unit Testing_ Parameterized JUnit Tests.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Unit Testing with Mocks: Getting Started with Mockito",
+            "fecha": "3 May. 2026",
+            "url": "img/certificados/NttData/Unit Testing with Mocks_ Getting Started with Mockito.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Spring Bean and Spring Boot",
+            "fecha": "4 May. 2026",
+            "url": "img/certificados/NttData/Spring Bean and Spring Boot.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Back-End Architecture",
+            "fecha": "4 May. 2026",
+            "url": "img/certificados/NttData/Back-End Architecture.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Introduction to CRUD",
+            "fecha": "4 May. 2026",
+            "url": "img/certificados/NttData/Introduction to CRUD.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Angular 16: Getting Started with Angular",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Angular 16_ Getting Started with Angular.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Angular 16: Introduction to Components",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Angular 16_ Introduction to Components.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Angular 16: Navigation and Routing",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Angular 16_ Navigation and Routing in Angular.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Angular 16: Security and Deployment",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Angular 16_ Security and Deployment in Angular.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Angular 16: Services and Dependency Injection",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Angular 16_ Services and Dependency Injection.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Angular 16: Working with Angular Modules",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Angular 16_ Working with Angular Modules.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Angular 16: Working with Components",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Angular 16_ Working with Components.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Angular 16: Working with Forms",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Angular 16_ Working With Forms.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Angular 17 and 18 New Features",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Angular 17 and 18 New Features.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "AWS Certified Machine Learning: Data Engineering, ML & AWS",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/AWS Certified Machine Learning_ Data Engineering, Machine Learning, & AWS.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Becoming an Emotionally Intelligent Leader",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Becoming an Emotionally Intelligent Leader.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Case Studies in Prompt Engineering",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Case Studies in Prompt Engineering.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Creating an Organized Database",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Creating an Organized Database.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "CRISC 2023: Risk Management",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/CRISC 2023_ Risk Management.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Data Retrieval",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Data Retrieval.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "DDL, DML, & Constraints",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/DDL, DML, & Constraints.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Exploring Prompt Engineering Techniques",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Exploring Prompt Engineering Techniques.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Exploring the OpenAI Playground",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Exploring the OpenAI Playground.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Final Exam: Prompt Engineering with Generative AI Tools",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Final Exam_ Prompt Engineering with Generative AI Tools.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Final Exam: Unit Testing",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Final Exam_ Unit Testing.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Getting Started with Prompt Engineering",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Getting Started with Prompt Engineering.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "How to Transform Tables with SQL",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/How to Transform Tables with SQL.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "La IA Generativa y su Impacto en los Negocios Cotidianos",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/La IA generativa y su impacto en los negocios cotidianos.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Prompt Engineering with Generative AI Tools",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Prompt Engineering with Generative AI Tools.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Unit Testing: Advanced Annotations in JUnit",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Unit Testing_ Advanced Annotations in JUnit.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Unit Testing: Executing JUnit Tests",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Unit Testing_ Executing JUnit Tests.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Unit Testing with Mocks: Creating Mocks & Verifying Behavior",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Unit Testing with Mocks_ Creating Mocks & Verifying Behavior.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Unit Testing with Mocks: Mocking Exceptions & Using Spies",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Unit Testing with Mocks_ Mocking Exceptions & Using Spies.pdf",
+            "tipo": "pdf"
+        },
+        {
+            "titulo": "Working with MongoDB Atlas: Introduction to MongoDB Atlas",
+            "fecha": "May. 2026",
+            "url": "img/certificados/NttData/Working with MongoDB Atlas_ An Introduction to MongoDB Atlas.pdf",
+            "tipo": "pdf"
+        }
+    ],
+    "openwebinars": [
+        {
+            "titulo": "Configuración de un servicio SSH en Linux",
+            "fecha": "2025",
+            "url": "img/certificados/OpenWebinars/certificadoSSH.png",
+            "tipo": "img"
+        },
+        {
+            "titulo": "Curso de Desarrollo Seguro",
+            "fecha": "2025",
+            "url": "img/certificados/OpenWebinars/certificadoDesarrolloSeguro.png",
+            "tipo": "img"
+        },
+        {
+            "titulo": "Fundamentos de Redes: TCP/IP",
+            "fecha": "2025",
+            "url": "img/certificados/OpenWebinars/certificadoTCP.png",
+            "tipo": "img"
+        },
+        {
+            "titulo": "Introducción a la Monitorización de Seguridad",
+            "fecha": "2025",
+            "url": "img/certificados/OpenWebinars/certificadoMonitarizacion.png",
+            "tipo": "img"
+        },
+        {
+            "titulo": "Dominando ChatGPT con la API de OpenAI",
+            "fecha": "2025",
+            "url": "img/certificados/OpenWebinars/certificadoChatGPT.png",
+            "tipo": "img"
+        },
+        {
+            "titulo": "Fundamentos de la Inteligencia Artificial",
+            "fecha": "2025",
+            "url": "img/certificados/OpenWebinars/certificadoIA.png",
+            "tipo": "img"
+        },
+        {
+            "titulo": "Fundamentos Generales: Orquestación y Automatización IT",
+            "fecha": "2025",
+            "url": "img/certificados/OpenWebinars/certificadoIT.png",
+            "tipo": "img"
+        },
+        {
+            "titulo": "Onboarding en Ciberseguridad",
+            "fecha": "2025",
+            "url": "img/certificados/OpenWebinars/certificadoCiberseguridad.png",
+            "tipo": "img"
+        },
+        {
+            "titulo": "WordPress: Construcción de sitios web",
+            "fecha": "2025",
+            "url": "img/certificados/OpenWebinars/certificadoWordpress.png",
+            "tipo": "img"
+        }
+    ],
+    "cisco": [
+        {
+            "titulo": "Networking Essentials",
+            "fecha": "06 Sep. 2024",
+            "url": "img/certificados/Cisco/cisco-networking-essentials.png",
+            "tipo": "img"
+        }
+    ]
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  renderCertificados(certificadosData.ntt_data, 'grid-ntt');
+  renderCertificados(certificadosData.openwebinars, 'grid-open');
+  renderCertificados(certificadosData.cisco, 'grid-cisco');
+});
+
+function renderCertificados(certificados, gridId) {
+  const grid = document.getElementById(gridId);
+  if (!grid) return;
+  grid.innerHTML = certificados.map(c => crearCard(c)).join('');
+}
+
+function escaparHTML(texto) {
+  const div = document.createElement('div');
+  div.textContent = texto;
+  return div.innerHTML;
+}
+
+function crearCard(cert) {
+  const titulo = escaparHTML(cert.titulo);
+  const url = escaparHTML(cert.url);
+  const urlEncoded = encodeURIComponent(cert.url);
+  const tituloEncoded = encodeURIComponent(cert.titulo);
+  const esPDF = cert.tipo === 'pdf' || url.endsWith('.pdf');
+
+  const contenido = esPDF
+    ? `<div class="pdf-preview-card">
+        <div class="pdf-badge">PDF</div>
+        <div class="pdf-icon"></div>
+      </div>`
+    : `<img src="${url}" alt="${titulo}" class="img-diploma" loading="lazy">`;
+
+  const tipo = esPDF ? 'pdf' : 'img';
+  return `<div class="certificado-item" onclick="verCertificado('${urlEncoded}', '${tipo}', '${tituloEncoded}')">
+    ${contenido}
+    <span class="certificado-titulo">${titulo}</span>
+  </div>`;
+}
+
+function verCertificado(urlEncoded, tipo, tituloEncoded) {
+  window.open(decodeURIComponent(urlEncoded), '_blank');
+}
