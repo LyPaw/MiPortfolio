@@ -1,6 +1,6 @@
-# MiPortfolio
+# MiPorfolio
 
-Portfolio personal de Manuel Fuentes Cruz.
+Porfolio personal de Manuel Fuentes Cruz.
 
 ## Contenido
 
